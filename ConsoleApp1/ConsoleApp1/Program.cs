@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {   
             
-            Console.Write("Task 1 - Please enter your name: ")
+            Console.Write("Please enter your name: ")
             string name = Console.ReadLine();
             Console.WriteLine($"Hello {name}");
             

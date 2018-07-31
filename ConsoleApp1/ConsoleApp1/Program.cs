@@ -9,26 +9,26 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("hello, please enter your name");
-            string input = Console.ReadLine();
-            Console.Write("hello");
-            Console.Write(input);
+        {   
+            
+            Console.Write("Task 1 - Please enter your name: ")
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}");
+            
+            Console.Write("Could you please enter your age: ");
+            int age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("please input a age");
-            string input1 = Console.ReadLine();
-            Console.Write("age");
-            Console.Write(input1);
+            Console.Write($"Ok {name}, could you please enter your gender: ");           
+            string gender = Console.ReadLine();
+    
+            Console.Write("Please enter your address: ");           
+            string address = Console.ReadLine();
 
-            Console.WriteLine("please enter a gender");
-            string input3 = Console.ReadLine();
-            Console.Write("gender");
-            Console.Write(input3);
-
-            Console.WriteLine("please enter a address");
-            string input4 = Console.ReadLine();
-            Console.Write("address");
-            Console.Write(input4);
+            Console.WriteLine("Ok, here is the information that i gathered:");
+            Console.WriteLine("Name: {0}",name);
+            Console.WriteLine("Age: {0}", age);
+            Console.WriteLine("Gender: {0}", gender);
+            Console.WriteLine("Address: {0}", address);
 
 
         }
